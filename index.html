@@ -30,7 +30,7 @@
 	 <script>
         function refreshCaptcha() {
             var captchaImage = document.getElementById('captchaImage');
-            captchaImage.src = 'captchaServlet?' + new Date().getTime();
+            captchaImage.src = 'https://dtcpass.delhi.gov.in/captchaServlet?' + new Date().getTime();
         }
         </script>
      <script language="JavaScript">
@@ -279,7 +279,7 @@
 		                    			</div>
 							    	          <div class="form-group" style="top: 30px;">
 							      		        	<label><b style="margin-left: 10px;border-top-width: 0px;border-top-style: solid;line-height: 12px;font-size: 21px;font-weight: 600;letter-spacing: -0.027em;">Captcha </b></label> 
-										             <img src="captchaServlet.png" id="captchaImage" alt="CAPTCHA Image" style="margin-left: 15px;margin-top: -50px;margin-bottom: -50px;"><br>
+										             <img src="https://dtcpass.delhi.gov.in/captchaServlet" id="captchaImage" alt="CAPTCHA Image" style="margin-left: 15px;margin-top: -50px;margin-bottom: -50px;"><br>
 								                </div>
 							                	<div class="form-group col-md-3 col-sm-3 col-lg-3">
 									        		<label for="capchaCode"><a onclick="refreshCaptcha()"><img src="refresh.png" style="margin-left: 250px;margin-top: -80px;"></a></label>
